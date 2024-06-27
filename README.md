@@ -23,4 +23,4 @@ langchain、tavily AI
 1. Gimini AI  
 2. Gradio  
 
-可以上網找影片自學
+可以上網找影片自學(找與自己想做的專案相近的東西)  
