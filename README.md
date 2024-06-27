@@ -15,3 +15,12 @@
 補充的資源：
 langchain、tavily AI
 
+
+## 6/27(第四次上課)
+練習 2 ：Gimini AI  
+
+補充資源：  
+1. Gimini AI  
+2. Gradio  
+
+可以上網找影片自學
