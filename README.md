@@ -3,9 +3,12 @@
 姓名：呂沛修  
 授課教師：蔡芸琤  
 
-## 6/27(第 3,4 次上課)
+## 6/27(第三次上課)
 練習 1：從 Huggingfacehub 上試著抓取模型  
 
 這次所抓取的模型：stable-diffusion-v1-5 (text to image)  
-模型測試並改變的結果(https://github.com/PeiHsiuLu/Education-folio/blob/main/big_data.ipynb)
+模型測試並改變的結果(https://github.com/PeiHsiuLu/Education-folio/blob/main/big_data.ipynb)  
+
+更改的內容：
+模型原先是單一的文字生成圖片，我嘗試讓它有更多的互動性，改成讓用戶輸入文字便能生成特定的影像。
 
