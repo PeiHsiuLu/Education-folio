@@ -28,4 +28,6 @@ langchain、tavily AI
 ## 課後自主學習 7/2
 
 ### Hugging face (image to image)  
+[課後嘗試：Hugging face (1/3)](https://github.com/PeiHsiuLu/Education-folio/blob/main/Hugging_face_image2image.ipynb)  
+所採用模型：stabilityai/stable-diffusion-xl-refiner-1.0  
 
