@@ -25,14 +25,7 @@ langchain、tavily AI
 
 可以上網找影片自學(找與自己想做的專案相近的東西)  
 
-## 課後自主學習 7/1
+## 課後自主學習 7/2
 
-### langchain
+### Hugging face (image to image)  
 
-
-
-### gimini ai
-
-
-
-### gradio
