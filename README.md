@@ -41,3 +41,6 @@ langchain、tavily AI
 
 LangChain 旨在為開發者提供一套工具和接口，以便更容易、更有效地利用大型語言模型（LLM）的開源框架。它主要包含適用於 JavaScript 和 Python 的函式庫，讓開發者可以在這兩種常見的程式語言中輕鬆使用 LLM。簡單來說，LangChain 提供了一個接口，讓使用者更方便地運用預訓練的 AI 模型，可以直接使用這些模型，而不需要再額外耗時訓練。此外，LangChain 還提供了各種工具和範例來幫助開發者快速構建和部署應用程序。
 
+
+### 專題製作
+套用Hugging face 模型：openai/whisper-large-v3
