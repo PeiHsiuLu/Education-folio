@@ -44,3 +44,5 @@ LangChain 旨在為開發者提供一套工具和接口，以便更容易、更�
 
 ### 專題製作
 套用Hugging face 模型：openai/whisper-large-v3
+(speech to text)  
+我先將下載的影片轉為mp3音檔，再轉成文字輸出。  
