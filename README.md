@@ -50,7 +50,7 @@ LangChain 旨在為開發者提供一套工具和接口，以便更容易、更�
 
 # 專題製作
 [專題主要的成果都放在這裡](https://github.com/SAStommy/eduAIproject/tree/main)  
-呂沛修負責的部分：蒐集資料、整理正負面語氣的 label  (500筆 train, 500筆 validation)、訓練後再修正所抓取的資料
+呂沛修負責的部分：蒐集資料、整理正負面語氣的 label  (500筆 train, 500筆 validation)、訓練後再修正所抓取的資料   
 杜洺鋒負責的部分：撰寫程式、gradio前端、Fine-tuned model  
 
 此次做專題的心得：  
