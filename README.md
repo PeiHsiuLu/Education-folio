@@ -48,4 +48,9 @@ LangChain 旨在為開發者提供一套工具和接口，以便更容易、更�
 我先將下載的影片轉為mp3音檔，再轉成文字輸出。  
 [聲音轉文字](https://github.com/PeiHsiuLu/Education-folio/blob/main/Educationfolio_project.ipynb)  
 
-## 專題製作 7/5
+# 專題製作
+[專題主要的成果都放在這裡](https://github.com/SAStommy/eduAIproject/tree/main)  
+呂沛修負責的部分：蒐集資料、整理正負面語氣的 label  (500筆 train, 500筆 validation)  
+杜洺鋒負責的部分：撰寫程式、gradio前端、Fine-tuned model  
+
+此次做專題的心得：我認為收集資料最累人的不
