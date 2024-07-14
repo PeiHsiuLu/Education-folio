@@ -60,4 +60,4 @@ LangChain 旨在為開發者提供一套工具和接口，以便更容易、更�
 [訓練資料 train](https://github.com/PeiHsiuLu/Education-folio/blob/main/0714_train.csv)  
 
 500 筆資料僅抓取 100 筆的原因：因為 Gemini 有 token 的限制，所以只能抓取少量資料進行訓練。    
-沒有使用 validation 的原因：不太適用，因為我們這次所做的生成式 AI 不太算制式的回答。
+沒有使用 validation 的原因：不太適用，處理的資料集數量實在太小了，只有 100筆資料進行訓練。我們沒有使用驗證資料的原因是資料集數量過小，僅有100筆資料進行訓練，無法有效進行驗證。
