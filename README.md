@@ -43,7 +43,7 @@ LangChain 旨在為開發者提供一套工具和接口，以便更容易、更�
 
 
 ## 專題製作 7/4
-套用Hugging face 模型：openai/whisper-large-v3
+套用 Hugging face 模型：openai/whisper-large-v3
 (speech to text)  
 我先將下載的影片轉為mp3音檔，再轉成文字輸出。  
 [聲音轉文字](https://github.com/PeiHsiuLu/Education-folio/blob/main/Educationfolio_project.ipynb)  
@@ -59,4 +59,5 @@ LangChain 旨在為開發者提供一套工具和接口，以便更容易、更�
 [驗證資料 validation](https://github.com/PeiHsiuLu/Education-folio/blob/main/0714_education.csv)  
 [訓練資料 train](https://github.com/PeiHsiuLu/Education-folio/blob/main/0714_train.csv)  
 
-後來我們沒有使用到驗證資料
+500 筆資料僅抓取 100 筆的原因：因為 Gemini 有 token 的限制，所以只能抓取少量資料進行訓練。  
+沒有使用 validation 的原因：
