@@ -54,4 +54,9 @@ LangChain 旨在為開發者提供一套工具和接口，以便更容易、更�
 杜洺鋒負責的部分：撰寫程式、gradio前端、Fine-tuned model  
 
 此次做專題的心得：  
-我認為收集資料最累人的部分在於要蒐集的資料數量眾多，而且考慮必須讓資料多元化，還得考慮心得評論情感的問題。此外，爬蟲可能會抓到太多重複課程的資料，可能對於 AI 的模型訓練不太有利。所以，最終只能採取人工抓取資料的手段。
+我認為收集資料最累人的部分在於要蒐集的資料數量眾多，而且考慮必須讓資料多元化，還得考慮心得評論情感的問題。此外，爬蟲可能會抓到太多重複課程的資料，可能對於 AI 的模型訓練不太有利。所以，最終只能採取人工抓取資料的手段。  
+
+[驗證資料 validation](https://github.com/PeiHsiuLu/Education-folio/blob/main/0714_education.csv)  
+[訓練資料 train](https://github.com/PeiHsiuLu/Education-folio/blob/main/0714_train.csv)  
+
+後來我們沒有使用到驗證資料
