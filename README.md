@@ -2,6 +2,7 @@
 ### Department: 115 Technology and Human Resources 
 ### Name: Pei-Hsiu Lu (呂沛修)  
 ### Instructor: Professor Yun-Chen Tsai (蔡芸琤教授)  
+### Assistant: Chia-Wei Hsu (許家瑋)  
 
 ## 6/27 (Third Class)
 ### Practice 1: Retrieving Models from Huggingfacehub
