@@ -1,5 +1,5 @@
 # Education Big Data Project Production  
-### Department: 115 Technology  
+### Department: 115 Technology and Human Resources 
 ### Name: Pei-Hsiu Lu (呂沛修)  
 ### Instructor: Professor Yun-Chen Tsai (蔡芸琤教授)  
 
