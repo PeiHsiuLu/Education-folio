@@ -1,89 +1,90 @@
-# 教育大數據專題製作
-教育大數據專題製作  
-姓名：呂沛修  
-授課教師：蔡芸琤  
+# Education Big Data Project Production  
+### Department: 115 Technology  
+### Name: Pei-Hsiu Lu (呂沛修)  
+### Instructor: Professor Yun-Chen Tsai (蔡芸琤教授)  
 
-## 6/27(第三次上課)
-練習 1：從 Huggingfacehub 上試著抓取模型  
+## 6/27 (Third Class)
+### Practice 1: Retrieving Models from Huggingfacehub
 
-這次所抓取的模型：stable-diffusion-v1-5 (text to image)  
-模型測試並改變的結果(https://github.com/PeiHsiuLu/Education-folio/blob/main/big_data.ipynb)  
+**Model retrieved:** stable-diffusion-v1-5 (text to image)  
+**Model test and modifications:** [Notebook link](https://github.com/PeiHsiuLu/Education-folio/blob/main/big_data.ipynb)
 
-更改的內容：
-模型原先是單一的文字生成圖片，我嘗試讓它有更多的互動性，改成讓用戶輸入文字便能生成特定的影像。
+**Modifications made:** 
+The original model generated a single image from text input. I attempted to make it more interactive by allowing users to input text and generate specific images.
 
-補充的資源：
-langchain、tavily AI
+**Additional resources:** 
+LangChain, Tavily AI
 
+## 6/27 (Fourth Class)
+### Practice 2: Gimini AI
 
-## 6/27(第四次上課)
-練習 2 ：Gimini AI  
-
-補充資源：  
+**Supplementary resources:**  
 1. Gimini AI  
 2. Gradio  
 
-可以上網找影片自學(找與自己想做的專案相近的東西)  
+You can find related videos online to learn by yourself (search for content similar to your project).
 
-## 課後自主學習 7/2
+## Self-study on 7/2
 
-### Hugging face (image to image)  
-[課後嘗試：Hugging face ](https://github.com/PeiHsiuLu/Education-folio/blob/main/Hugging_face_image2image.ipynb)  
-所採用模型：stabilityai/stable-diffusion-xl-refiner-1.0  
+### Hugging Face (image to image)  
+**Post-class attempt:** [Hugging Face Notebook](https://github.com/PeiHsiuLu/Education-folio/blob/main/Hugging_face_image2image.ipynb)  
+**Model used:** stabilityai/stable-diffusion-xl-refiner-1.0
 
-## 課後自主學習 7/3  
+## Self-study on 7/3
 
-### langchain  
-1. 旨在為開發者提供一套工具和接口，以便更容易、更有效地利用大型語言模型（LLM）的開源框架
-2. 主要包含的程式語言函式庫： JS,python
-3. 簡單來說，就是提供一個接口，讓使用者更方便運用AI模型，可以直接使用，而不需要再額外耗時訓練
+### LangChain
+1. Aiming to provide developers with tools and interfaces to more easily and effectively utilize large language models (LLM) within an open-source framework.
+2. Mainly includes libraries for JS and Python.
+3. In short, it provides an interface for users to easily use AI models directly without spending additional time on training.
 
+LangChain aims to provide developers with tools and interfaces to more easily and effectively utilize large language models (LLM) within an open-source framework. It mainly includes libraries for JavaScript and Python, allowing developers to use LLMs easily within these common programming languages. In short, LangChain offers an interface that makes it easier for users to use pre-trained AI models directly, without needing to spend additional time on training. Additionally, LangChain provides various tools and examples to help developers quickly build and deploy applications.
 
-LangChain 旨在為開發者提供一套工具和接口，以便更容易、更有效地利用大型語言模型（LLM）的開源框架。它主要包含適用於 JavaScript 和 Python 的函式庫，讓開發者可以在這兩種常見的程式語言中輕鬆使用 LLM。簡單來說，LangChain 提供了一個接口，讓使用者更方便地運用預訓練的 AI 模型，可以直接使用這些模型，而不需要再額外耗時訓練。此外，LangChain 還提供了各種工具和範例來幫助開發者快速構建和部署應用程序。
+## Project Production on 7/4
+### Applying Hugging Face Model: openai/whisper-large-v3 (speech to text)
+First, I downloaded the videos and converted them to mp3 audio files, then converted the audio to text output.  
+**Voice to Text:** [Notebook link](https://github.com/PeiHsiuLu/Education-folio/blob/main/Educationfolio_project.ipynb)
 
+## Project Production
 
-## 專題製作 7/4
-套用 Hugging face 模型：openai/whisper-large-v3
-(speech to text)  
-我先將下載的影片轉為mp3音檔，再轉成文字輸出。  
-[聲音轉文字](https://github.com/PeiHsiuLu/Education-folio/blob/main/Educationfolio_project.ipynb)  
+### Topic: Feedback Generator
+**Description:**
+Allows users to upload audio files or text, and the AI can generate reasonable feedback based on the uploaded content.
 
-# 專題製作
+**Motivation/Purpose:**
+To address students' needs for writing feedback assignments and to learn English (my personal need).
 
-## 主題: 心得產生器
-### 描述: 
-可以透過上傳音檔或文本, 讓ai可以依照上傳的範圍生成合理的心得回饋
-### 動機/目的:
-解決學生要寫心得作業的需求, 順便學英文(自己需要)
-### 其它功能:
-1. 可以設定需要生成字數要求
-2. 可以設定內容情緒
-3. 可以設定立埸程度(正面/負面)
-4. 可以設定要不要分數(依立場數據生成)
-5. 可以透過心得學英文
-### 啟動方法
-1. 按線色code<>按鈕並按download zip
-2. 把下載檔解壓縮
-3. 把aiproject_v4.(gemini-1.5-pro).py跑起來(要下載ffmpeg及import使用套件)
-4. 使用方法看介紹影片
-   
-### 補充說明
-v4版本,feeling部分可能存在overfiting使用付費gemini可把csv全部資料作訓練解決
-[專題主要的成果都放在這裡](https://github.com/SAStommy/eduAIproject/tree/main)  
+**Other features:**
+1. Set the required number of words.
+2. Set the sentiment of the content.
+3. Set the stance level (positive/negative).
+4. Option to include scores (generated based on stance data).
+5. Use feedback to learn English.
 
-### 分工
-呂沛修負責的部分：蒐集資料、整理正負面語氣的 label  (500筆 train, 500筆 validation)、訓練後根據模型生成結果再微調修正所抓取的資料   
-杜洺鋒負責的部分：撰寫程式、gradio前端、Fine-tuned model  
+### Startup Method
+1. Click the "Code" button and select "Download ZIP".
+2. Unzip the downloaded file.
+3. Run aiproject_v4.(gemini-1.5-pro).py (requires ffmpeg and relevant package imports).
+4. Watch the introduction video for usage instructions.
 
-### 心得
-此次做專題的心得：  
-我認為收集資料最累人的部分在於要蒐集的資料數量眾多，而且考慮必須讓資料多元化，還得考慮心得評論情感的問題。此外，爬蟲可能會抓到太多重複課程的資料，可能對於 AI 的模型訓練不太有利。所以，最終只能採取人工抓取資料的手段。  
+### Additional Notes
+In version 4, there may be overfitting in the "feeling" part. Using the paid version of Gemini can resolve this by training with the entire CSV dataset.  
+[Main results of the project](https://github.com/SAStommy/eduAIproject/tree/main)
 
-[驗證資料 validation](https://github.com/PeiHsiuLu/Education-folio/blob/main/0714_education.csv)  
-[訓練資料 train](https://github.com/PeiHsiuLu/Education-folio/blob/main/0714_train.csv)  
+### Division of Work
+**Pei-Hsiu Lu's responsibilities:** Data collection, organizing positive and negative sentiment labels (500 entries for training, 500 for validation), fine-tuning the model based on generated results and making manual adjustments.  
+**Ming-Feng Tu's responsibilities:** Coding, Gradio frontend, fine-tuned model.
 
-500 筆資料僅抓取 100 筆的原因：因為 Gemini 有 token 的限制，所以只能抓取少量資料進行訓練。    
-沒有使用 validation 的原因：不太適用，處理的資料集數量實在太小了，只有 100筆資料進行訓練。我們沒有使用驗證資料的原因是資料集數量過小，僅有100筆資料進行訓練，無法有效進行驗證。  
+### Reflection
+**Reflection on the project:**  
+I found that the most exhausting part of data collection was the sheer volume of data needed. Additionally, considering the need for diverse data and sentiment in feedback was challenging. Moreover, web scraping might gather too many repetitive course reviews, which might not be beneficial for AI model training. Therefore, manual data collection was necessary in the end.
 
-# 期末專題發表影片
-[心得產生器](https://www.youtube.com/watch?v=ZhsbQv5_M1o)
+**Validation data:** [Validation Data](https://github.com/PeiHsiuLu/Education-folio/blob/main/0714_education.csv)  
+**Training data:** [Training Data](https://github.com/PeiHsiuLu/Education-folio/blob/main/0714_train.csv)  
+
+**Reason for using only 100 out of 500 entries:** Due to token limitations in Gemini, only a small amount of data could be used for training.  
+**Reason for not using validation data:** The dataset was too small, with only 100 entries for training, making validation impractical.  
+We did not use validation data because the dataset was too small, with only 100 entries for training, making effective validation impossible.
+
+### Final Project Presentation Video
+[Feedback Generator](https://www.youtube.com/watch?v=ZhsbQv5_M1o)
+
