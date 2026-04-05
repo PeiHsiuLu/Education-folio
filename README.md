@@ -4,46 +4,6 @@
 ### Instructor: Professor Yun-Chen Tsai (蔡芸琤教授)  
 ### Assistant: Chia-Wei Hsu (許家瑋)  
 
-## 6/27 (Third Class)
-### Practice 1: Retrieving Models from Huggingfacehub
-
-**Model retrieved:** stable-diffusion-v1-5 (text to image)  
-**Model test and modifications:** [Notebook link](https://github.com/PeiHsiuLu/Education-folio/blob/main/big_data.ipynb)
-
-**Modifications made:** 
-The original model generated a single image from text input. I attempted to make it more interactive by allowing users to input text and generate specific images.
-
-**Additional resources:** 
-LangChain, Tavily AI
-
-## 6/27 (Fourth Class)
-### Practice 2: Gimini AI
-
-**Supplementary resources:**  
-1. Gimini AI  
-2. Gradio  
-
-You can find related videos online to learn by yourself (search for content similar to your project).
-
-## Self-study on 7/2
-
-### Hugging Face (image to image)  
-**Post-class attempt:** [Hugging Face Notebook](https://github.com/PeiHsiuLu/Education-folio/blob/main/Hugging_face_image2image.ipynb)  
-**Model used:** stabilityai/stable-diffusion-xl-refiner-1.0
-
-## Self-study on 7/3
-
-### LangChain
-1. Aiming to provide developers with tools and interfaces to more easily and effectively utilize large language models (LLM) within an open-source framework.
-2. Mainly includes libraries for JS and Python.
-3. In short, it provides an interface for users to easily use AI models directly without spending additional time on training.
-
-LangChain aims to provide developers with tools and interfaces to more easily and effectively utilize large language models (LLM) within an open-source framework. It mainly includes libraries for JavaScript and Python, allowing developers to use LLMs easily within these common programming languages. In short, LangChain offers an interface that makes it easier for users to use pre-trained AI models directly, without needing to spend additional time on training. Additionally, LangChain provides various tools and examples to help developers quickly build and deploy applications.
-
-## Project Production on 7/4
-### Applying Hugging Face Model: openai/whisper-large-v3 (speech to text)
-First, I downloaded the videos and converted them to mp3 audio files, then converted the audio to text output.  
-**Voice to Text:** [Notebook link](https://github.com/PeiHsiuLu/Education-folio/blob/main/Educationfolio_project.ipynb)
 
 ## Project Production
 
